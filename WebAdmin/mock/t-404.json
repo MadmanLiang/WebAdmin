@@ -1,0 +1,48 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_EXT_BOARD_AIDI_CONFIG_ACK",
+        "Code": 404
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Channel": [
+                {
+                    "No": "1",
+                    "Index": 1,
+                    "Description": 0,
+                    "Enable": true,
+                    "Type": "AI",
+                    "Hard_Type": "Cur",
+                    "Name": "Ext1",
+                    "Sensor": "温度",
+                    "Slope": 1.23,
+                    "Intercept": 5.2,
+                    "Upper": 7.8,
+                    "Lower": 8.9,
+                    "Dev_Id": "123456789",
+                    "Cell_Id": "123123"
+                },
+                {
+                    "No": "2",
+                    "Index": 2,
+                    "Description": 1,
+                    "Enable": true,
+                    "Type": "AI",
+                    "Hard_Type": "",
+                    "Name": "Ext2",
+                    "Sensor": "温度",
+                    "Slope": 0,
+                    "Intercept": 0,
+                    "Upper": 0,
+                    "Lower": 0,
+                    "Dev_Id": "“123456”789",
+                    "Cell_Id": "123123"
+                }
+            ]
+        }
+    }
+}

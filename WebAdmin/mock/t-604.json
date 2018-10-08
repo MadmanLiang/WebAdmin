@@ -1,0 +1,106 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_SMART_DEVICE_CONFIG_ACK",
+        "Code": 604
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Smart_Config": [
+                {
+                    "Serial_Index": 1,
+                    "Smart": [
+                        {
+                            "So_Info": {
+                                "So_Name":"So_Name1",
+                                "Name": "test1",
+                                "Version": "1.00",
+                                "Factory": "中兴",
+                                "Model": "型号",
+                                "Type": "类型1"
+                            },
+                            "Devices": [
+                                {
+                                    "Address": "1",
+                                    "Dev_Id": "1111111"
+                                },
+                                {
+                                    "Address": "2",
+                                    "Dev_Id": "2222222"
+                                }
+                            ]
+                        },
+                        {
+                            "So_Info": {
+                                "So_Name":"So_Name2",
+                                "Name": "test1",
+                                "Version": "1.00",
+                                "Factory": "中兴",
+                                "Model": "型号",
+                                "Type": "类型2"
+                            },
+                            "Devices": [
+                                {
+                                    "Address": "1",
+                                    "Dev_Id": "1111111"
+                                },
+                                {
+                                    "Address": "2",
+                                    "Dev_Id": "2222222"
+                                }
+                            ]
+                        },
+                        {
+                            "So_Info": {
+                                "So_Name":"So_Name3",
+                                "Name": "test1",
+                                "Version": "1.00",
+                                "Factory": "中兴",
+                                "Model": "型号",
+                                "Type": "类型2"
+                            },
+                            "Devices": [
+                                {
+                                    "Address": "1",
+                                    "Dev_Id": "1111111"
+                                },
+                                {
+                                    "Address": "2",
+                                    "Dev_Id": "2222222"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Serial_Index": 2,
+                    "Smart": [
+                        {
+                            "So_Info": {
+                                "So_Name":"So_Name4",
+                                "Name": "test1",
+                                "Version": "1.00",
+                                "Factory": "中兴",
+                                "Model": "型号",
+                                "Type": "类型2"
+                            },
+                            "Devices": [
+                                {
+                                    "Address": "1",
+                                    "Dev_Id": "1111111"
+                                },
+                                {
+                                    "Address": "2",
+                                    "Dev_Id": "2222222"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

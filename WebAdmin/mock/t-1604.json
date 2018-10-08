@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_FTP_ACK",
+        "Code": 1604
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

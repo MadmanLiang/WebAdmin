@@ -1,0 +1,16 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_FTP_ACK",
+        "Code": 1602
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Username": "test",
+            "Password": "testtest"
+    	}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_EXT_BOARD_DO_CTRL_ACK",
+        "Code": 1104
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

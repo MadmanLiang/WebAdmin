@@ -1,0 +1,41 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_EXT_BOARD_DO_CONFIG_ACK",
+        "Code": 408
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Ext_Index": 1,
+            "Channel": [
+                {
+                    "No": "1",
+                    "Index": 1,
+                    "Description": 0,
+                    "Enable": true,
+                    "Ctrl_Type": 0,
+                    "Name": "testDoExt1",
+                    "Sensor": "远程开门",
+                    "Pulse_Width": 13,
+                    "Dev_Id": "123456789",
+                    "Cell_Id": "123123"
+                },
+                {
+                    "No": "2",
+                    "Index": 2,
+                    "Description": 0,
+                    "Enable": true,
+                    "Ctrl_Type": 0,
+                    "Name": "testDoExt2",
+                    "Sensor": "远程开门",
+                    "Pulse_Width": 13,
+                    "Dev_Id": "123456789",
+                    "Cell_Id": "123123"
+                }
+            ]
+        }
+    }
+}

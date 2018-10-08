@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_FSU_DEFAULT_ACK",
+        "Code": 1804
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

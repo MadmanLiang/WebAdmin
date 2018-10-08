@@ -1,0 +1,781 @@
+{
+    "Sensors":{
+        "关闭":{
+            "Hard_Type":{"Editable": false, "Default": -1}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   ""
+        },
+		"关闭DI":{
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   ""
+        },
+		"其它DI":{
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": true, "Default": 0},
+			"CellId":   ""
+        },
+        "其它":{
+            "Hard_Type":{"Editable": true, "Default": 0}, 
+            "Slope":    {"Editable": true, "Default": 0},
+            "Intercept":{"Editable": true, "Default": 0},
+            "Upper":    {"Editable": true, "Default": 0},
+            "Lower":    {"Editable": true, "Default": 0},
+			"Normal":   {"Editable": true, "Default": 0},
+			"CellId":   ""
+        },
+        "模拟温度变送器":{ 
+            "Hard_Type":{"Editable": false, "Default": 1}, 
+            "Slope":    {"Editable": false, "Default": 6.25},
+            "Intercept":{"Editable": false, "Default": -45},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418102001"
+        },
+        "模拟湿度变送器":{ 
+            "Hard_Type":{"Editable": false, "Default": 1}, 
+            "Slope":    {"Editable": false, "Default": 6.25},
+            "Intercept":{"Editable": false, "Default": -25},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"3M投入式液位传感器":{ 
+            "Hard_Type":{"Editable": false, "Default": 1}, 
+            "Slope":    {"Editable": false, "Default": 1.875},
+            "Intercept":{"Editable": false, "Default": -7.5},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   ""
+        },
+		"70V直流电压变送器":{ 
+            "Hard_Type":{"Editable": false, "Default": 1}, 
+            "Slope":    {"Editable": false, "Default": 4.375},
+            "Intercept":{"Editable": false, "Default": -17.5},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   ""
+        },
+		"-100~100A直流电流变送器":{ 
+            "Hard_Type":{"Editable": false, "Default": 1}, 
+            "Slope":    {"Editable": false, "Default": 12.5},
+            "Intercept":{"Editable": false, "Default": -150},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   ""
+        },
+		"门磁":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 1},
+			"CellId":   "0499005001"
+        },
+        "非智能门禁门磁":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0499005001"
+        },
+		"非智能门禁门磁(取反)":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 1},
+			"CellId":   "0499005001"
+        },
+		"非智能门禁锁舌":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0499006001"
+        },
+		"非智能门禁锁舌(取反)":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 1},
+			"CellId":   "0499006001"
+        },
+		"智能门禁门磁":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0417005001"
+        },
+		"智能门禁门磁(取反)":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 1},
+			"CellId":   "0417005001"
+        },
+		"智能门禁锁舌":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0417006001"
+        },
+		"智能门禁锁舌(取反)":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 1},
+			"CellId":   "0417006001"
+        },
+        "振动传感器":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418009001"
+        },
+        "水浸传感器":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418001001"
+        },
+		"红外传感器":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 1},
+			"CellId":   "0418003001"
+        },
+		"停电检测传感器":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418011001"
+        },
+		"被盗传感器":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418010001"
+        },
+		"烟雾传感器":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418002001"
+        },
+		"电池组1中间点电压":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0407106001"
+        },
+		"电池组1总电压":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0407102001"
+        },
+		"电池组2中间点电压":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0407106001"
+        },
+		"电池组2总电压":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0407102001"
+        },
+		"数字温湿度":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   ""
+        },
+		"数字温湿度-温度":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字温湿度-温度1":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字温湿度-温度2":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字温湿度-温度3":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字温湿度-温度4":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字温湿度-湿度":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418102001"
+        },
+		"数字温湿度-湿度1":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418102001"
+        },
+		"数字温湿度-湿度2":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418102001"
+        },
+		"数字温湿度-湿度3":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418102001"
+        },
+		"数字温湿度-湿度4":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418102001"
+        },
+		"数字单温度":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字单温度1":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字单温度2":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字单温度3":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"数字单温度4":{ 
+            "Hard_Type":{"Editable": false, "Default": 0}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418101001"
+        },
+		"水浸专用":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 1},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   "0418001001"
+        },
+		"门磁专用":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 2},
+            "Lower":    {"Editable": false, "Default": -1},
+			"Normal":   {"Editable": false, "Default": 1},
+			"CellId":   "0499005001"
+        },
+		"本板通道状态":{ 
+            "Hard_Type":{"Editable": false, "Default": 2}, 
+            "Slope":    {"Editable": false, "Default": 0},
+            "Intercept":{"Editable": false, "Default": 0},
+            "Upper":    {"Editable": false, "Default": 0},
+            "Lower":    {"Editable": false, "Default": 0},
+			"Normal":   {"Editable": false, "Default": 0},
+			"CellId":   ""
+        },
+        "门磁1-远程开门":{
+            "Ctrl_Type":    {"Editable": false, "Default": 0},
+            "Pulse_Width":  {"Editable": false, "Default": 1000},
+            "CellId":   "123456333"
+        },
+        "门磁1-远程关门":{
+            "Ctrl_Type":    {"Editable": false, "Default": 1},
+            "Pulse_Width":  {"Editable": false, "Default": 2000},
+            "CellId":   "123456333"
+        },
+        "其它Do":{
+            "Ctrl_Type":    {"Editable": false, "Default": 2},
+            "Pulse_Width":  {"Editable": false, "Default": 3000},
+            "CellId":   "123456333"
+        }
+    },
+    "Descriptions":[
+        {
+            "Description": 0,
+            "Prefix":"通用AI/DI",
+            "Sensors":[
+                "关闭",
+                "模拟温度变送器",
+                "模拟湿度变送器",
+                "3M投入式液位传感器",
+                "70V直流电压变送器",
+				"-100~100A直流电流变送器",
+				"门磁",
+				"非智能门禁门磁",
+				"非智能门禁门磁(取反)",
+				"非智能门禁锁舌",
+				"非智能门禁锁舌(取反)",
+				"智能门禁门磁",
+				"智能门禁门磁(取反)",
+				"智能门禁锁舌",
+				"智能门禁锁舌(取反)",
+				"振动传感器",
+				"水浸传感器",
+				"红外传感器",
+				"停电检测传感器",
+				"被盗传感器",
+                "其它"
+            ]
+        },
+        {
+            "Description": 1,
+            "Prefix":"专用AI",
+            "Sensors":[
+                "关闭"
+            ]
+        },
+        {
+            "Description": 2,
+            "Prefix":"通用DI",
+            "Sensors":[
+				"关闭",
+				"门磁",
+				"非智能门禁门磁",
+				"非智能门禁门磁(取反)",
+				"非智能门禁锁舌",
+				"非智能门禁锁舌(取反)",
+				"智能门禁门磁",
+				"智能门禁门磁(取反)",
+				"智能门禁锁舌",
+				"智能门禁锁舌(取反)",
+				"振动传感器",
+				"水浸传感器",
+				"红外传感器",
+				"停电检测传感器",
+				"被盗传感器",
+				"烟雾传感器",
+                "其它DI"
+            ]
+        },
+        {
+            "Description": 3,
+            "Prefix":"专用DI",
+            "Sensors":[
+                "关闭",
+				"门磁",
+				"非智能门禁门磁",
+				"非智能门禁门磁(取反)",
+				"非智能门禁锁舌",
+				"非智能门禁锁舌(取反)",
+				"智能门禁门磁",
+				"智能门禁门磁(取反)",
+				"智能门禁锁舌",
+				"智能门禁锁舌(取反)",
+				"水浸传感器"
+            ]
+        },
+        {
+            "Description": 4,
+            "Prefix":"通用DO",
+            "Sensors":[
+                "门磁1-远程开门",
+                "门磁1-远程关门",
+                "其它Do"
+            ]
+        },
+        {
+            "Description": 5,
+            "Prefix":"专用DO",
+            "Sensors":[
+                "空调1-远程开机",
+                "空调1-远程关机",
+                "其它Do"
+            ]
+        },
+        {
+            "Description": 6,
+            "Prefix":"专用AI/DI",
+            "Sensors":[
+				"关闭",
+				"温度",
+				"湿度",
+				"门磁",
+				"非智能门禁门磁",
+				"非智能门禁门磁(取反)",
+				"非智能门禁锁舌",
+				"非智能门禁锁舌(取反)",
+				"智能门禁门磁",
+				"智能门禁门磁(取反)",
+				"智能门禁锁舌",
+				"智能门禁锁舌(取反)",
+				"烟感",
+				"水浸",
+				"其他"
+            ]
+        },
+		{
+            "Description": 7,
+            "Prefix":"专用DI",
+            "Sensors":[
+				"关闭",
+				"水浸专用"
+            ]
+        },
+		{
+            "Description": 8,
+            "Prefix":"专用DI",
+            "Sensors":[
+				"关闭",
+				"门磁专用"
+            ]
+        },
+		{
+            "Description": 9,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"电池电压"
+            ]
+        },
+		{
+            "Description": 10,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度"
+            ]
+        },
+		{
+            "Description": 11,
+            "Prefix":"专用DI",
+            "Sensors":[
+				"本板通道状态"	
+            ]
+        },
+		{
+            "Description": 12,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"电池组1中间点电压"
+            ]
+        },
+		{
+            "Description": 13,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"电池组1总电压"
+            ]
+        },
+		{
+            "Description": 14,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"电池组2中间点电压"
+            ]
+        },
+		{
+            "Description": 15,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"电池组2总电压"
+            ]
+        },
+		{
+            "Description": 16,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字单温度"
+            ]
+        },
+		{
+            "Description": 17,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-温度"
+            ]
+        },
+		{
+            "Description": 18,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-湿度"
+            ]
+        },
+		{
+            "Description": 21,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-温度1"
+            ]
+        },
+		{
+            "Description": 22,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-湿度1"
+            ]
+        },
+		{
+            "Description": 23,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-温度2"
+            ]
+        },
+		{
+            "Description": 24,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-湿度2"
+            ]
+        },
+		{
+            "Description": 25,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-温度3"
+            ]
+        },
+		{
+            "Description": 26,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-湿度3"
+            ]
+        },
+		{
+            "Description": 27,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-温度4"
+            ]
+        },
+		{
+            "Description": 28,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字温湿度-湿度4"
+            ]
+        },
+		{
+            "Description": 31,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字单温度1"
+            ]
+        },
+		{
+            "Description": 32,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字单温度2"
+            ]
+        },
+		{
+            "Description": 33,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字单温度3"
+            ]
+        },
+		{
+            "Description": 34,
+            "Prefix":"专用AI",
+            "Sensors":[
+				"关闭",
+				"数字单温度4"
+            ]
+        },
+		{
+            "Description": 41,
+            "Prefix":"专用DI",
+            "Sensors":[
+				"关闭",
+				"门磁专用",
+				"非智能门禁门磁",
+				"非智能门禁门磁(取反)",
+				"非智能门禁锁舌",
+				"非智能门禁锁舌(取反)",
+				"智能门禁门磁",
+				"智能门禁门磁(取反)",
+				"智能门禁锁舌",
+				"智能门禁锁舌(取反)"
+            ]
+        },
+		{
+            "Description": 46,
+            "Prefix":"专用DI",
+            "Sensors":[
+				"关闭",
+				"水浸专用"
+            ]
+        },
+		{
+            "Description": 8000,
+            "Prefix":"专用DI",
+            "Sensors":[
+                "本板通道状态",
+                "jfff",
+                "关闭"
+            ]
+        }
+    ]
+}

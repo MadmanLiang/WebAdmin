@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456", 
+    "Message": {
+        "Name": "SET_DEVICE_ID_ACK",
+        "Code": 1204
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

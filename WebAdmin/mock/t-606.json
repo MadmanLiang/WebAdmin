@@ -1,0 +1,20 @@
+{
+    "Method":"Response",
+    "Message":{
+        "Code":606,
+        "Name":"GET_ALL_SMART_DEVICE_SO_ACK"
+    },
+    "Token":"eyJhbGciOiJTSEExIiwidHlwIjoiSldUIn0=.eyJpYXQiOiIxNTAyNTQ2NTQ4IiwibmFtZSI6ImFkbWluIn0=.78249218148da6afeaa9a9e4a73ea335034abd25",
+    "Info":{
+        "Data":{
+            "So_Info":[
+                {"Factory":"大金","Model":"DJ-15","Name":"智能空调","So_Name":"example","Type":15,"Version":"1.00.001"},
+                {"Factory":"海尔","Model":"HE","Name":"智能空调","So_Name":"example1","Type":15,"Version":"1.00.001"},
+                {"Factory":"美的","Model":"MD","Name":"智能空调","So_Name":"example2","Type":15,"Version":"2.00.001"},
+                {"Factory":"格力","Model":"GL","Name":"智能空调","So_Name":"example3","Type":15,"Version":"3.00.001"}
+            ]
+        },
+        "Error":"",
+        "Result":true
+        }
+    }

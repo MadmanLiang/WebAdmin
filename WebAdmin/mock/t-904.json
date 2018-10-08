@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_ADD_PLUGIN_ACK",
+        "Code": 904
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

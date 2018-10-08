@@ -1,0 +1,24 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_HARD_TRANSFER_ACK",
+        "Code": 608
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data":{
+            "Hard_Para":[
+                {
+                    "Serial_Index":1,
+                    "Port": 12455
+                },
+                {
+                    "Serial_Index":2,
+                    "Port": 12456
+                }
+            ]
+        } 
+    }
+}

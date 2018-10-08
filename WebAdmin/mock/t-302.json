@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_PPP_ACK",
+        "Code": 302
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

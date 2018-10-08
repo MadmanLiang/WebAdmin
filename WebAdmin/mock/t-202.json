@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_NET_ACK",
+        "Code": 202
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

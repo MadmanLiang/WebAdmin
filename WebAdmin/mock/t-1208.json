@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456", 
+    "Message": {
+        "Name": "SET_CMCC_INFO_ACK",
+        "Code": 1208
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

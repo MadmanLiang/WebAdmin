@@ -1,0 +1,28 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_EXTENSION_CONFIG_ACK",
+        "Code": 1402
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Extension": [
+                {
+                    "Index": 1,
+                    "Name": "名字1",
+                    "Ver": "版本1",
+                    "Desp": "this is sample"
+                },
+                {
+                    "Index": 2,
+                    "Name": "名字2",
+                    "Ver": "版本2",
+                    "Desp": "this is sample"
+                }
+            ]
+        }
+    }
+}

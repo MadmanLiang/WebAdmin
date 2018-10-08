@@ -1,0 +1,52 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_CHANNEL_DATA_ACK",
+        "Code": 1302
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Dev_Info":{
+                "Hard_Index": 1,
+                "Hard_Type": 1,
+                "Device_Type": 1,
+                "Device_Index": 1,
+                "Data_Index": 1,
+                "Data_Type": 1
+                },
+"Channel_AI": [
+                {
+                    "Index": 1,
+                    "Value": 123
+                },
+                {
+                    "Index": 2,
+                    "Value": 1
+                }
+            ],
+"Channel_DI": [
+                {
+                    "Index": 1,
+                    "Value": 1
+                },
+                {
+                    "Index": 2,
+                    "Value": 0
+                }
+            ],
+"Channel_AO": [
+                {
+                    "Index": 1,
+                    "Value": 1
+                },
+                {
+                    "Index": 2,
+                    "Value": 0
+                }
+            ]
+        }
+    }
+}

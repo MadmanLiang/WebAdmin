@@ -1,0 +1,55 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_PLUGIN_CHANNEL_INFO_ACK",
+        "Code": 806
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Plugin_Index": 1,
+            "Channel_AI": [
+				{
+					"Index": 1,
+                    "Name": "test"
+                },
+                {
+					"Index": 2,
+                    "Name": "test2"
+                } 
+            ],
+            "Channel_DI": [
+				{
+					"Index": 1,
+                    "Name": "test"
+                },
+                {
+					"Index": 2,
+                    "Name": "test2"
+                } 
+            ],
+            "Channel_AO": [
+				{
+					"Index": 1,
+                    "Name": "test"
+                },
+                {
+					"Index": 2,
+                    "Name": "test2"
+                } 
+            ],
+            "Channel_DO": [
+				{
+					"Index": 1,
+                    "Name": "test"
+                },
+                {
+					"Index": 2,
+                    "Name": "test2"
+                } 
+            ]
+        }
+    }
+}

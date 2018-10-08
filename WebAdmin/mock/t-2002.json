@@ -1,0 +1,46 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_DEVICE_ID_ACK",
+        "Code": 2002
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Station_id": "123456",
+            "FSU_id": "333333",
+            "GPS_id": "123456",
+            "IPC_id": "333333",
+            "Channel": [
+                {
+                    "Index": "11",
+                    "Name": "test",
+                    "Dev_id": "122331231",
+                    "Sgl_id": "11111"
+                },
+                {
+                    "Index": "11",
+                    "Name": "test",
+                    "Dev_id": "122331231",
+                    "Sgl_id": "11111"
+                }
+            ],
+            "Serial": [
+                {
+                    "Index": "1",
+                    "Address": "1",
+                    "Protocol": "122331231",
+                    "Dev_id": "11111"
+                },
+                {
+                    "Index": "1",
+                    "Address": "1",
+                    "Protocol": "122331231",
+                    "Dev_id": "11111"
+                }
+            ]
+        }
+    }
+}

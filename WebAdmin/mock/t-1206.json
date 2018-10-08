@@ -1,0 +1,112 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_CMCC_INFO_ACK",
+        "Code": 1206
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+			"Station":{
+                "RoomName": "移动机房",
+                "SiteName": "移动站点",
+                "RoomID" : "123456",
+                "SiteID": "456789"
+            },
+            "FSU":{
+                "ID":"111111",
+                "Dic": 1,
+                "Vendor": "333333"
+            },
+            "GPS": {
+                "ID": "",
+                "Type": 1,
+                "Longitude": 113.36,
+                "Latitude": 222.34
+            },
+            "IPC":{
+                "ID": ""
+            },
+            "Channel": [
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                },
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他1",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                },
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他2",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                },
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他3",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                },
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他4",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                }
+            ],
+            "Smart": [
+                {
+                    "Index": "1",
+                    "Address": "1",
+                    "Dev_ID": "11111",
+                    "So_Name": "test1",
+                    "Name": "空调",
+                    "Version": "1.00",
+                    "Factory": "中兴",
+                    "Model": "型号",
+                    "Type": "类型"
+                },
+                {
+                   "Index": "1",
+                    "Address": "1",
+                    "Dev_ID": "11111",
+                    "So_Name": "test1",
+                    "Name": "空调",
+                    "Version": "1.00",
+                    "Factory": "中兴",
+                    "Model": "型号",
+                    "Type": "类型"
+                }
+            ],
+            "Plugin": [
+                {
+                    "Index": "1",
+                    "Dev_ID": "11111",
+                    "So_Name": "test1",
+                    "Name": "空调",
+                    "Version": "1.00",
+                    "Factory": "中兴",
+                    "Model": "型号",
+                    "Type": "类型"
+                    }
+                ]
+        }
+    }
+}

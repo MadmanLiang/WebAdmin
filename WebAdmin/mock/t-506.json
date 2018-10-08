@@ -1,0 +1,24 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_SERIAL_STATE_ACK",
+        "Code": 506
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Serial_Statistics": [
+                {
+                    "Serial_Index": 1,
+                    "Enable": true,
+                    "Receive_Byte": 123,
+                    "Receive_Frame": 333,
+                    "Send_Byte": 23,
+                    "Send_Frame": 333
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_PLUGIN_AIDI_DATA_ACK",
+        "Code": 808
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Plugin_Index": 1,
+            "Channel_AI": [
+                {
+                    "Index": 1,
+                    "Value": 123
+                },
+                {
+                    "Index": 2,
+                    "Value": 123
+                }
+            ],
+            "Channel_DI": [
+                {
+                    "Index": 1,
+                    "Value": 123
+                },
+                {
+                    "Index": 2,
+                    "Value": 123
+                }
+            ]
+        }
+    }
+}

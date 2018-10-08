@@ -1,0 +1,110 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_DEVICE_ID_ACK",
+        "Code": 1202
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+			"Station":{
+				"Name": "testtest",
+                "ID": ""
+            },
+            "FSU":{
+                "ID":"测试",
+                "Dic": 1,
+                "Vendor": "333333"
+            },
+            "GPS": {
+                "ID": "",
+                "Type": 1,
+                "Longitude": 113.36,
+                "Latitude": 222.34
+            },
+            "IPC":{
+                "ID": ""
+            },
+            "Channel": [
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                },
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他1",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                },
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他2",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                },
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他3",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                },
+                {
+					"Board":0,
+                    "Index": "11",
+                    "Type": 1,
+                    "Name": "其他4",
+                    "Dev_ID": "",
+                    "Cell_ID": ""
+                }
+            ],
+            "Smart": [
+                {
+                    "Index": "1",
+                    "Address": "1",
+                    "Dev_ID": "11111",
+                    "So_Name": "test1",
+                    "Name": "空调",
+                    "Version": "1.00",
+                    "Factory": "中兴",
+                    "Model": "型号",
+                    "Type": "类型"
+                },
+                {
+                   "Index": "1",
+                    "Address": "1",
+                    "Dev_ID": "11111",
+                    "So_Name": "test1",
+                    "Name": "空调",
+                    "Version": "1.00",
+                    "Factory": "中兴",
+                    "Model": "型号",
+                    "Type": "类型"
+                }
+            ],
+            "Plugin": [
+                {
+                    "Index": "1",
+                    "Dev_ID": "11111",
+                    "So_Name": "test1",
+                    "Name": "空调",
+                    "Version": "1.00",
+                    "Factory": "中兴",
+                    "Model": "型号",
+                    "Type": "类型"
+                    }
+                ]
+        }
+    }
+}

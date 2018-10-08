@@ -1,0 +1,36 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_HISTORY_WARN_ACK",
+        "Code": 1506
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Count": 15,
+            "Start": 15,
+            "AlarmList": [
+                {
+                    "SerialNo": "“123456”78",
+                    "SignalId": "125425",
+                    "DeviceId": "125425",
+                    "Time": "125425",
+                    "Level": "125425",
+                    "Flag": "125425",
+                    "Desc": "125425"
+                },
+                {
+                    "SerialNo": "“123456”78",
+                    "SignalId": "125425",
+                    "DeviceId": "125425",
+                    "Time": "125425",
+                    "Level": "125425",
+                    "Flag": "125425",
+                    "Desc": "125425"
+                }
+            ]
+        }
+    }
+}

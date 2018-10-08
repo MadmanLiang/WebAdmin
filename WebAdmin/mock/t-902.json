@@ -1,0 +1,26 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_VERSION_ACK",
+        "Code": 902
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Version": [
+                {
+					"Index": 1,
+                    "Name": "kernal",
+                    "Ver": "2.3.36"
+                },
+                {
+                    "Index": 2,
+                    "Name": "app",
+                    "Ver": "1.02.003_ad"
+                }
+            ]
+        }
+    }
+}

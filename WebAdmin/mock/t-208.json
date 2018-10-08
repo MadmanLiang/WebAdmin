@@ -1,0 +1,19 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_PPP_ACK",
+        "Code": 208
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Enable": true,
+            "Type": 0,
+            "APN": "CMNET",
+            "Username": "test",
+            "Password": "testtest"
+        }
+    }
+}

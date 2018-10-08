@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_SERIAL_ACK",
+        "Code": 502
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_SMART_DEVICE_DO_CTRL_ACK",
+        "Code": 1106
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

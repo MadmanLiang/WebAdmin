@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_DELETE_EXTENSION_ACK",
+        "Code": 1316
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

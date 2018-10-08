@@ -1,0 +1,32 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_MAIN_BOARD_DATA_ACK",
+        "Code": 602
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Channel": [
+                {
+                    "Index": 1,
+                    "Type": "AI",
+                    "Value": 123,
+                    "OrgVal": 123,
+                    "Name": "温度",
+                    "State": "正常"
+                },
+                {
+                    "Index": 2,
+                    "Type": "AI",
+                    "Value": 123,
+                    "OrgVal": 123,
+                    "Name": "温度",
+                    "State": "正常"
+                }
+            ]
+        }
+    }
+}

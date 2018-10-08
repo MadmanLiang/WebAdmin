@@ -1,0 +1,87 @@
+
+{
+	"Info":{
+		"Data":{
+			"AI_Count":24,
+			"AO_Count":0,
+			
+			"Channel_AI":[
+				{"Cell_Id":"","Description":0,"Dev_Id":"","Enable":true,"Hard_Name":"AD-1","Hard_Type":0,"Index":1,"Intercept":0,"Lower":0,"Name":"其它","Normal":0,"Sensor":"其它","Slope":0,"Upper":0},
+				{"Cell_Id":"","Description":0,"Dev_Id":"","Enable":true,"Hard_Name":"AD-2","Hard_Type":0,"Index":2,"Intercept":0,"Lower":0,"Name":"其它","Normal":0,"Sensor":"其它","Slope":0,"Upper":0},
+				{"Cell_Id":"","Description":0,"Dev_Id":"","Enable":true,"Hard_Name":"AD-3","Hard_Type":0,"Index":3,"Intercept":0,"Lower":0,"Name":"其它","Normal":0,"Sensor":"其它","Slope":0,"Upper":0},
+				{"Cell_Id":"","Description":0,"Dev_Id":"","Enable":false,"Hard_Name":"AD-4","Hard_Type":0,"Index":4,"Intercept":0,"Lower":0,"Name":"通用AI\/DI-4","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":0,"Dev_Id":"","Enable":false,"Hard_Name":"AD-5","Hard_Type":0,"Index":5,"Intercept":0,"Lower":0,"Name":"通用AI\/DI-5","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":0,"Dev_Id":"","Enable":false,"Hard_Name":"AD-6","Hard_Type":0,"Index":6,"Intercept":0,"Lower":0,"Name":"通用AI\/DI-6","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":0,"Dev_Id":"","Enable":false,"Hard_Name":"AD-7","Hard_Type":0,"Index":7,"Intercept":0,"Lower":0,"Name":"通用AI\/DI-7","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":0,"Dev_Id":"","Enable":false,"Hard_Name":"AD-8","Hard_Type":0,"Index":8,"Intercept":0,"Lower":0,"Name":"通用AI\/DI-8","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":12,"Dev_Id":"","Enable":false,"Hard_Name":"BATTERY1-MIDDLE","Hard_Type":0,"Index":51,"Intercept":0,"Lower":0,"Name":"电池组1中间点电压","Normal":0,"Sensor":"电池组1中间点电压","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":13,"Dev_Id":"","Enable":false,"Hard_Name":"BATTERY1-TOTAL","Hard_Type":0,"Index":52,"Intercept":0,"Lower":0,"Name":"电池组1总电压","Normal":0,"Sensor":"电池组1总电压","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":14,"Dev_Id":"","Enable":false,"Hard_Name":"BATTERY2-MIDDLE","Hard_Type":0,"Index":53,"Intercept":0,"Lower":0,"Name":"电池组2中间点电压","Normal":0,"Sensor":"电池组2中间点电压","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":15,"Dev_Id":"","Enable":false,"Hard_Name":"BATTERY2-TOTAL","Hard_Type":0,"Index":54,"Intercept":0,"Lower":0,"Name":"电池组2总电压","Normal":0,"Sensor":"电池组2总电压","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":21,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":55,"Intercept":0,"Lower":0,"Name":"数字温湿度-温度1","Normal":0,"Sensor":"数字温湿度-温度1","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":22,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":56,"Intercept":0,"Lower":0,"Name":"数字温湿度-湿度1","Normal":0,"Sensor":"数字温湿度-湿度1","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":23,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":57,"Intercept":0,"Lower":0,"Name":"数字温湿度-温度2","Normal":0,"Sensor":"数字温湿度-温度2","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":24,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":58,"Intercept":0,"Lower":0,"Name":"数字温湿度-湿度2","Normal":0,"Sensor":"数字温湿度-湿度2","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":25,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":59,"Intercept":0,"Lower":0,"Name":"数字温湿度-温度3","Normal":0,"Sensor":"数字温湿度-温度3","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":26,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":60,"Intercept":0,"Lower":0,"Name":"数字温湿度-湿度3","Normal":0,"Sensor":"数字温湿度-湿度3","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":27,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":61,"Intercept":0,"Lower":0,"Name":"数字温湿度-温度4","Normal":0,"Sensor":"数字温湿度-温度4","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":28,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":62,"Intercept":0,"Lower":0,"Name":"数字温湿度-湿度4","Normal":0,"Sensor":"数字温湿度-湿度4","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":31,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":63,"Intercept":0,"Lower":0,"Name":"关闭","Normal":0,"Sensor":"数字单温度1","Slope":0,"Upper":0},
+				{"Cell_Id":"","Description":32,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":64,"Intercept":0,"Lower":0,"Name":"数字单温度2","Normal":0,"Sensor":"数字单温度2","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":33,"Dev_Id":"","Enable":false,"Hard_Name":"DHT","Hard_Type":0,"Index":65,"Intercept":0,"Lower":0,"Name":"数字单温度3","Normal":0,"Sensor":"数字单温度3","Slope":1,"Upper":0},
+				{"Cell_Id":"0418101001","Description":34,"Dev_Id":"","Enable":true,"Hard_Name":"DHT","Hard_Type":0,"Index":66,"Intercept":0,"Lower":0,"Name":"数字单温度4","Normal":0,"Sensor":"数字单温度4","Slope":1,"Upper":0}],
+				
+			"Channel_AO":[],
+			
+			"Channel_DI":[
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-1","Hard_Type":2,"Index":101,"Intercept":0,"Lower":0,"Name":"烟感","Normal":0,"Sensor":"烟感","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-2","Hard_Type":2,"Index":102,"Intercept":0,"Lower":0,"Name":"烟感","Normal":0,"Sensor":"烟感","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-3","Hard_Type":2,"Index":103,"Intercept":0,"Lower":0,"Name":"烟感","Normal":0,"Sensor":"烟感","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-4","Hard_Type":2,"Index":104,"Intercept":0,"Lower":0,"Name":"烟感","Normal":0,"Sensor":"烟感","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-5","Hard_Type":2,"Index":105,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-6","Hard_Type":2,"Index":106,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-7","Hard_Type":2,"Index":107,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-8","Hard_Type":2,"Index":108,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-9","Hard_Type":2,"Index":109,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-10","Hard_Type":2,"Index":110,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-11","Hard_Type":2,"Index":111,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-12","Hard_Type":2,"Index":112,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-13","Hard_Type":2,"Index":113,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-14","Hard_Type":2,"Index":114,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-15","Hard_Type":2,"Index":115,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"","Description":2,"Dev_Id":"","Enable":false,"Hard_Name":"DI-16","Hard_Type":2,"Index":116,"Intercept":0,"Lower":0,"Name":"通用DI","Normal":0,"Sensor":"","Slope":1,"Upper":0},
+				{"Cell_Id":"0499005001","Description":41,"Dev_Id":"","Enable":true,"Hard_Name":"DOOR1","Hard_Type":2,"Index":151,"Intercept":0,"Lower":0,"Name":"门磁专用","Normal":1,"Sensor":"门磁专用","Slope":0,"Upper":2},
+				{"Cell_Id":"0499005001","Description":41,"Dev_Id":"","Enable":true,"Hard_Name":"DOOR2","Hard_Type":2,"Index":152,"Intercept":0,"Lower":0,"Name":"门磁专用","Normal":1,"Sensor":"门磁专用","Slope":0,"Upper":2},
+				{"Cell_Id":"0418001001","Description":46,"Dev_Id":"","Enable":true,"Hard_Name":"WATER1","Hard_Type":2,"Index":153,"Intercept":0,"Lower":-1,"Name":"水浸专用","Normal":0,"Sensor":"水浸专用","Slope":1,"Upper":2},
+				{"Cell_Id":"0418001001","Description":46,"Dev_Id":"","Enable":true,"Hard_Name":"WATER2","Hard_Type":2,"Index":154,"Intercept":0,"Lower":-1,"Name":"水浸专用","Normal":0,"Sensor":"水浸专用","Slope":1,"Upper":2},
+				{"Cell_Id":"8888888888","Description":8000,"Dev_Id":"","Enable":true,"Hard_Name":"Board","Hard_Type":2,"Index":8000,"Intercept":0,"Lower":0,"Name":"本板通道状态","Normal":0,"Sensor":"本板通道状态","Slope":0,"Upper":0},
+				{"Cell_Id":"6666666666","Description":8000,"Dev_Id":"","Enable":true,"Hard_Name":"Board","Hard_Type":2,"Index":8001,"Intercept":0,"Lower":0,"Name":"本板通道状态","Normal":0,"Sensor":"本板通道状态","Slope":0,"Upper":0}],
+				
+			"Channel_DO":[
+				{"Cell_Id":"","Ctrl_Type":1,"Description":4,"Dev_Id":"","Enable":true,"Hard_Name":"DO-1","Index":1,"Name":"通用DO1","Pulse_Width":0,"Sensor":"烟感"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":4,"Dev_Id":"","Enable":true,"Hard_Name":"DO-2","Index":2,"Name":"通用DO2","Pulse_Width":0,"Sensor":"烟感"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":4,"Dev_Id":"","Enable":true,"Hard_Name":"DO3","Index":3,"Name":"通用DO3","Pulse_Width":0,"Sensor":"烟感"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":4,"Dev_Id":"","Enable":true,"Hard_Name":"DO4","Index":4,"Name":"通用DO4","Pulse_Width":0,"Sensor":"烟感"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":5,"Dev_Id":"","Enable":true,"Hard_Name":"烟感复位1","Index":51,"Name":"烟感复位1","Pulse_Width":0,"Sensor":"门禁"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":5,"Dev_Id":"","Enable":true,"Hard_Name":"烟感复位2","Index":52,"Name":"烟感复位2","Pulse_Width":0,"Sensor":"门禁"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":5,"Dev_Id":"","Enable":true,"Hard_Name":"烟感复位3","Index":53,"Name":"烟感复位3","Pulse_Width":0,"Sensor":"门禁"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":5,"Dev_Id":"","Enable":true,"Hard_Name":"烟感复位4","Index":54,"Name":"烟感复位4","Pulse_Width":0,"Sensor":"其他"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":5,"Dev_Id":"","Enable":true,"Hard_Name":"数字温湿度电源","Index":55,"Name":"数字温湿度电源","Pulse_Width":0,"Sensor":"其他"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":5,"Dev_Id":"","Enable":true,"Hard_Name":"USB电源","Index":56,"Name":"USB电源","Pulse_Width":0,"Sensor":"其他"},
+				{"Cell_Id":"","Ctrl_Type":1,"Description":5,"Dev_Id":"","Enable":true,"Hard_Name":"蜂鸣器","Index":1000,"Name":"蜂鸣器","Pulse_Width":1000,"Sensor":"位置"}],
+			
+			"DI_Count":22,
+			"DO_Count":12
+			},
+			
+				"Error":"","Result":true
+			},
+			"Message":{
+				"Code":304,"Name":"GET_BOARD_CONFIG_ACK"},
+				"Method":"Response",
+				"Token":"eyJhbGciOiJTSEExIiwidHlwIjoiSldUIn0=.eyJpYXQiOiIxNzY0NDY3IiwibmFtZSI6ImFkbWluIn0=.d6ff8da559eb20fcd7f5e1fc370a83ede77d14b8"
+}
+	
+	
+		
+	

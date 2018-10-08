@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_SERIAL_MONITRO_ACK",
+        "Code": 1702
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

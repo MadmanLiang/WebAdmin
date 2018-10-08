@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_DEL_PLUGIN_ACK",
+        "Code": 906
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

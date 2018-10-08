@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_SMART_DEVICE_ACK",
+        "Code": 804
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

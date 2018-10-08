@@ -1,0 +1,31 @@
+{
+    "default":{
+        "vpn":{
+            "tolls":[
+                {
+                    "Name":"aname",
+                    "VPN_Type": "xl2tp",
+                    "Username": "ttcw2015",
+                    "Password": "ttcw@2015",
+                    "VPN_IP": [
+                        "101.227.245.122",
+                        "101.227.245.123",
+                        "101.227.245.124"
+                    ]
+                },
+                {
+                    "Name":"bname",
+                    "VPN_Type": "xl2tp",
+                    "Username": "ttcw2015",
+                    "Password": "ttcw@2015",
+                    "VPN_IP": [
+                        "202.227.245.122",
+                        "202.227.245.123",
+                        "202.227.245.124"
+                    ]
+                }
+            ]
+
+        }
+    }
+}

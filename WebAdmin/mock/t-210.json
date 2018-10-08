@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456", 
+    "Message": {
+        "Name": "SET_VPN_ACK",
+        "Code": 210
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

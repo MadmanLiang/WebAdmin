@@ -1,0 +1,23 @@
+{
+    "Info":{
+        "Data":{
+            "Serial_Para":[
+                {"Baudrate":"9600","Data_Bit":"8","Enable":false,"Frame_Head":"7D","Frame_Tail":"0B","Frame_Type":"TimeOut","Function":"None","Hard_Type":"232","Parity_Bit":"n","Recv_Timeout":100,"Serial_Index":1,"Stop_Bit":"1","Switch_Time":100,"Scan_Time":50},
+                {"Baudrate":"19200","Data_Bit":"8","Enable":true,"Frame_Head":"7D","Frame_Tail":"0B","Frame_Type":"TimeOut","Function":"Smart","Hard_Type":"485","Parity_Bit":"n","Recv_Timeout":100,"Serial_Index":2,"Stop_Bit":"1","Switch_Time":100,"Scan_Time":50},
+                {"Baudrate":"19200","Data_Bit":"8","Enable":true,"Frame_Head":"7D","Frame_Tail":"0B","Frame_Type":"TimeOut","Function":"Smart","Hard_Type":"485","Parity_Bit":"n","Recv_Timeout":100,"Serial_Index":3,"Stop_Bit":"1","Switch_Time":100,"Scan_Time":50},
+                {"Baudrate":"19200","Data_Bit":"8","Enable":false,"Frame_Head":"7D","Frame_Tail":"0B","Frame_Type":"TimeOut","Function":"Soft","Hard_Type":"485","Parity_Bit":"n","Recv_Timeout":100,"Serial_Index":4,"Stop_Bit":"1","Switch_Time":100,"Scan_Time":50},
+                {"Baudrate":"19200","Data_Bit":"8","Enable":false,"Frame_Head":"7D","Frame_Tail":"0B","Frame_Type":"TimeOut","Function":"None","Hard_Type":"485","Parity_Bit":"n","Recv_Timeout":100,"Serial_Index":5,"Stop_Bit":"1","Switch_Time":100,"Scan_Time":60},
+                {"Baudrate":"19200","Data_Bit":"8","Enable":false,"Frame_Head":"7D","Frame_Tail":"0B","Frame_Type":"TimeOut","Function":"Hard","Hard_Type":"485","Parity_Bit":"n","Recv_Timeout":100,"Serial_Index":6,"Stop_Bit":"1","Switch_Time":100,"Scan_Time":70},
+                {"Baudrate":"19200","Data_Bit":"8","Enable":false,"Frame_Head":"7D","Frame_Tail":"0B","Frame_Type":"TimeOut","Function":"None","Hard_Type":"485","Parity_Bit":"n","Recv_Timeout":100,"Serial_Index":7,"Stop_Bit":"1","Switch_Time":100,"Scan_Time":80},
+                {"Baudrate":"19200","Data_Bit":"8","Enable":false,"Frame_Head":"7D","Frame_Tail":"0B","Frame_Type":"TimeOut","Function":"None","Hard_Type":"485","Parity_Bit":"n","Recv_Timeout":100,"Serial_Index":8,"Stop_Bit":"1","Switch_Time":100,"Scan_Time":90}
+            ]
+        },
+        "Error":"",
+        "Result":true
+    },
+    "Message":{
+        "Code":504,"Name":"GET_SERIAL_ACK"
+    },
+    "Method":"Response",
+    "Token":"eyJhbGciOiJTSEExIiwidHlwIjoiSldUIn0=.eyJpYXQiOiIxNTAyNTQ2NTQ4IiwibmFtZSI6ImFkbWluIn0=.78249218148da6afeaa9a9e4a73ea335034abd25"
+}

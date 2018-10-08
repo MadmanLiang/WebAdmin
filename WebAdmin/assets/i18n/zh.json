@@ -1,0 +1,534 @@
+{
+    "app": {
+        "articles": "动态",
+        "welcome": "欢迎你",
+        "logout": "退出",
+        "login": "登录",
+        "register": "注册",
+        "doc": "官方文档",
+        "console": "管理后台",
+        "title":"一体化动环监控设备"
+    },
+    "post": {
+        "publish": "发布文章"
+    },
+    "userRegister":{
+        "userSignUp":"用户注册",
+        "userName":"用户名：",
+        "userName-placeholder":"用户名4到32个字符",
+        "nickName":"昵称：",
+        "nickName-placeholder":"昵称2到32个字符",
+        "email":"常用邮箱：",
+        "email-placeholder":"常用邮箱，验证后才能登录",
+        "notice":"【如果您未在收件箱收到验证邮件，请到垃圾箱查收。】",
+        "password":"密码：",
+        "password-placeholder":"密码，至少8位",
+        "repeat-pwd":"重复密码：",
+        "repeat-pwd-placeholder":"重复密码，两次输入必须一致",
+        "signUp":"注册"
+    },
+    "userLogin":{
+        "userLogin":"用户登录",
+        "rememberMe":"记住账号",
+        "userName":"用户名",
+        "password":"密码",
+        "userName-placeholder":"请输入用户名...",
+        "password-placeholder":"请输入密码...",
+        "userName-notify":"用户名必须输入！",
+        "password-notify":"密码必须输入,至少要8位！",
+        "loginFail":"登录失败！请检查用户名与密码是否正确！"
+        
+
+    },
+    "leftNav":{
+        "title": "栏目导航",
+        "hello":"你好，",
+        "admin":"管理员"
+    },
+    "subpages":{
+        "sys":{
+            "name":"系统设置",
+            "version":{
+                "name":"版本信息"
+            },
+            "network":{
+                "name":"本地网络",
+                "type": "获取 IP 方式",
+                "type-s": "静态 IP",
+                "type-d": "动态 IP",
+                "ip": "IP 地址",
+                "mask": "子网掩码",
+                "gateway": "默认网关",
+                "mac": "MAC 地址"
+            },
+            "time":{
+                "name":"时间设置",
+                "fsu-time": "FSU 时间",
+                "date": "日期",
+                "time": "时间",
+                "now":"获得本地时间",
+                "setnow": "设置当前时间",
+                "setlocal": "设置本地" 
+            },
+            "reset":{
+                "name":"设备重启",
+                "reset":"设备重启",
+                "password": "输入口令",
+                "options":[
+                    {"n": "none", "d": "----"},
+		            {"n": "restart", "d": "立刻重启"},
+            		{"n": "reinit","d": "恢复出厂设置"}	
+                ]
+            },
+            "upgrade":{
+                "name":"系统升级"
+            },
+            "params":{
+                "name":"参数导入导出",
+                "import": "参数导入",
+                "export": "参数导出",
+                "browse": "浏览",
+                "filesize": "文件大小",
+                "progress":"上传进度",
+                "result":"执行结果",
+                "success":"上传成功",
+                "canceled":"被取消",
+                "fail":"上传失败",
+                "action-name":"导入操作",
+                "filname": "文件名",
+                "cfgbase": "本板配置",
+                "cfgext":"扩展板配置",
+                "cfgcom":"串口配置",
+                "cfgmodel":"公共模块配置"
+            },
+            "password":{
+                "name":"密码修改",
+                "username":"用户名",
+                "pswdorg":"当前密码",
+                "pswdnew1":"新密码",
+                "pswdnew2":"确认密码",
+                "tip-input-org":"请输入当前密码",
+                "tip-input-new1":"请输入新密码(至少8位)",
+                "tip-input-new2":"请输入确认密码",
+                "tip-input-1-2":"请输入相同的新密码",
+                "err_pswdorg_null":"当前密码为空！",
+                "err_pswd_not_same":"两次密码不同！",
+                "err_pswdnew_null":"请输入至少8位的新密码！",
+                "ok_info":"密码重置成功",
+                "fail_info":"密码重置错误"
+            },
+            "nat":{
+                "name":"NAT 配置",
+                "gateway":"网关",
+                "turnon":"开启",
+                "turnoff":"关闭",
+                "serverip":"外接设备 IP",
+                "serverport":"服务端口号",
+                "mirroport":"镜像端口号",
+                "intport":"外接设备端口号",
+                "extport":"FSU 端口号",
+                "add":"添加",
+                "del":"删除"
+            },
+            "ftp":{
+                "name":"FTP 配置",
+                "account":"账号",
+                "password":"密码"
+            },
+            "log":{
+                "name":"LOG 配置",
+                "enalbe":"开启/关闭",
+                "printenable":"终端显示",
+                "receverip":"接收端IP",
+                "level":"日志级别"
+            }
+
+        },
+        "srv":{
+            "name":"业务设置",
+            "vpn":{
+                "name":"VPN 设置",
+                "turnon":"开启 VPN",
+                "tollon":"铁塔默认 VPN",
+                "turnoff":"关闭 VPN",
+                "state":"VPN 状态",
+                "type":"VPN 类型",
+                "ip1":"VPN IP1",
+                "ip2":"VPN IP2",
+                "ip3":"VPN IP3",
+                "username":"VPN 账号",
+                "password":"VPN 密码"
+            },
+            "network":{
+                "name":"接入平台设置",
+                "type":"通讯方式",
+                "t-wire":"有线方式",
+                "t-wireless":"无线方式",
+                "t-usbmodem":"USB MODEM",
+                "mode":"网络制式",
+                "m-auto":"自适应",
+                "reg-ip":"注册服务器 IP",
+                "reg-port":"注册服务器端口号",
+                "reg-name":"注册服务器账号",
+                "reg-password":"注册服务器密码",
+                "omc-ip":"OMC 服务器 IP",
+                "omc-port":"OMC 服务器端口号",
+                "omc-name":"OMC 账号",
+                "omc-password":"OMC 密码"
+            },
+            "wireless":{
+                "name":"业务网络配置",
+                "type":"通讯方式",
+                "t-wire":"有线方式",
+                "t-wireless":"无线方式",
+                "m-auto":"自适应",
+                "apn":"运营商名称",
+                "username":"账号",
+                "password":"密码"
+            },
+            "status":{
+                "name":"网路状态检测",
+                "modemtype":"Modem 型号",
+                "imsi":"IMSI",
+                "simstatus":"SIM 卡状态",
+                "simnet":"运营商网络状态",
+                "dblevel":"信号强度",
+                "nwmode":"网络制式",
+                "modemstatus":"Modem 拨号状态",
+                "l2tpstatus":"VPN 拨号状态",
+                "regstatus":"铁塔注册状态",
+                "fsuid":"铁塔 FSU ID",
+                "emi":"是否有 EMI 干扰",
+                "title":"以下为拨号实时信息",
+                "info":{
+                    "SIM_State_true":"在位",
+                    "SIM_State_false":"未在位",
+                    "MODEM_State_true":"Modem 已开启; ",
+                    "MODEM_State_false":"Modem 未开启; ",
+                    "VPN_State_true":"VPN 已开启; ",
+                    "VPN_State_false":"VPN 未开启; ",
+                    "have_ip":"已连接",
+                    "not_have_ip":"未连接",
+                    
+                    "SIM_Net_true":"已连接",
+                    "SIM_Net_false":"未连接",
+                    "Enable_true":"连接",
+                    "Enable_false":"未连接",
+                    "Tower_Reg_true":"已注册",
+                    "Tower_Reg_false":"未注册"
+                }
+            },
+            "devcom":{
+                "name":"串口设备管理",
+                "comnum":"串口号",
+                "comfunc":"串口功能",
+                "cfsmart":"智能解析",
+                "cfhard":"硬件透明",
+                "cfsoft":"软件透明",
+                "cfnone":"关闭",
+                "comparam":"串口参数",
+                "smartdev":"智能设备",
+                "addsmartdev":"添加智能设备",
+                "hardparam":"硬透传参数",
+                "softparam":"软透传参数",
+                "com-params":{
+                    "ttType": "串口类型",
+                    "ttBps": "波特率",
+                    "ttDbit": "数据位",
+                    "ttSbit": "停止位",
+                    "ttCbit": "校验位",
+                    "ttRType": "接收方式",
+                    "ttTimeout": "超时时间",
+                    "ttFHByte": "帧头",
+                    "ttFTByte": "帧尾",
+                    "ttSwitchTime":"发送完等待时间",
+                    "ttScanTime":"智能设备扫描间隔"
+                },
+                "smart-params":{
+                    "ttNumber": "设备数量",
+                    "ttAddress": "设备地址",
+                    
+                    "ttType": "设备类型",
+                    "ttFactory": "厂家",
+                    "ttModel": "型号",
+                    "ttName": "名称",
+                    "ttVersion": "版本"
+                },
+                "devappend":{
+
+                },
+                "tran-params":{
+                    "ttPort": "端口号"
+                },
+                "soft-params":{
+                    "ttPort": "端口号"
+                },
+                "waitingtitle":"设置",
+                "waitinginfo":"正在执行，请稍后..."
+
+            },
+            "fsucode":{
+                "name":"铁塔信息配置",
+                "validitystr":"请输入14位数字编码",
+                "station":{
+                    "title":"局站配置",
+                    "name":"局站名称",
+                    "id":"局站编码",
+                    "area":"局站位置"
+                },
+                "fsu":{
+                    "title":"FSU 监控设备配置",
+                    "id":"FSU 编码",
+                    "vendor": "FSU 厂商名称",
+                    "dic":"信号量字典表",
+                    "dic0":"正常信号字典表",
+                    "dic1":"2G 精简字典表"
+                },
+                "gps":{
+                    "title":"GPS 配置",
+                    "type":"定位信息获取方式",
+                    "type0":"串口获取",
+                    "type1":"手动配置",
+                    "type2":"USB 获取",                    
+                    "id":"GPS 设备编码",
+                    "longitude":"FSU 经度",
+                    "latitude":"FSU 纬度"
+                },
+                "ipc":{
+                    "title":"IPC 配置",
+                    "id":"IPC 编码"
+                },
+                "sensor":{
+                    "title":"传感器编码",
+                    "board":"采集板",
+                    "type":"通道类型",
+                    "index":"通道号",
+                    "name":"通道名称",
+                    "devid":"设备编码",
+                    "cellid":"监控量 ID"
+                },
+                "smart":{
+                    "title":"串口设备编码",
+                    "comnum":"串口号",
+                    "address":"地址",
+                    "info":"设备信息",
+                    "devid":"设备编码"
+                },
+                "plugin":{
+                    "title":"公共模块编码",
+                    "moduleId":"模块 ID",
+                    "devtype":"设备类型",
+                    "info":"设备信息",
+                    "devid":"设备编码"
+                }
+            },
+            "ipc":{
+                "name":"公共模块设置",
+                "add":"添加公共模块",
+                "delete":"删除公共模块",
+                "deleting":"正要删除",
+                "selmodel":"模块选择",
+                "model":" 模块"
+            },
+            "gsmconfig":{
+                "name":"移动信息配置",
+                "validitystr":"请输入正确的编码ID",
+                "station":{
+                    "title":"机房配置",
+                    "roomName":"机房名称",
+                    "stationName":"站点名称",
+                    "roomId":"机房ID",
+                    "stationId":"站点ID",
+                    "area":"站点位置"
+                },
+                "fsu":{
+                    "title":"FSU 监控设备配置",
+                    "id":"FSU 编码",
+                    "vendor": "FSU 厂商名称",
+                    "dic":"信号量字典表",
+                    "dic0":"正常信号字典表",
+                    "dic1":"2G 精简字典表"
+                },
+                "gps":{
+                    "title":"GPS 配置",
+                    "type":"定位信息获取方式",
+                    "type0":"串口获取",
+                    "type1":"手动配置",
+                    "type2":"USB 获取",                    
+                    "id":"GPS 设备编码",
+                    "longitude":"FSU 经度",
+                    "latitude":"FSU 纬度"
+                },
+                "ipc":{
+                    "title":"IPC 配置",
+                    "id":"IPC 编码"
+                },
+                "sensor":{
+                    "title":"传感器编码",
+                    "board":"采集板",
+                    "type":"通道类型",
+                    "index":"通道号",
+                    "name":"通道名称",
+                    "devid":"设备编码",
+                    "cellid":"监控量 ID"
+                },
+                "smart":{
+                    "title":"串口设备编码",
+                    "comnum":"串口号",
+                    "address":"地址",
+                    "info":"设备信息",
+                    "devid":"设备编码"
+                },
+                "plugin":{
+                    "title":"公共模块编码",
+                    "moduleId":"模块 ID",
+                    "devtype":"设备类型",
+                    "info":"设备信息",
+                    "devid":"设备编码"
+                }
+            },
+            "cmccPlugin":{
+                "name":"扩展模块设置",
+                "add":"添加扩展模块",
+                "delete":"删除扩展模块",
+                "deleting":"正要删除",
+                "selmodel":"模块选择",
+                "model":" 模块"
+            }
+            
+        },
+        "chn":{
+            "name":"动环参数",
+            "all":{
+                "name":"全部通道配置",
+                "ctrl_type":"控制类型",
+                "pulse_width":"脉冲宽度",
+                "ctrl_type_displays":["低电平", "高电平", "脉冲控制"]
+            }
+        },
+        "sta":{
+            "name":"实时监控",
+            "data":{
+                "name":"本板数据查询",
+                "chsnum": "通道数",
+                "Hard_Name":"端口名称",
+                "autoRefresh": "定时刷新",
+                "chNo":"通道号",
+                "chName":"通道名称",
+                "chStatus":"通道状态",
+                "chValOrg":"原始值",
+                "chVal":"通道值",
+                "chCtrl":"控制"
+
+            },
+            "devsmart":{
+                "name":"智能设备查询"
+            },
+            "ext":{
+                "name":"扩展板数据查询"
+            },
+            "model":{
+                "name":"公共模块数据查询"
+            },
+            "cmccmodel":{
+                "name":"扩展模块数据查询"
+            },
+            "com":{
+                "name":"串口数据监控"
+            },
+            "alarm":{
+                "name":"告警查询",
+                "devid":"告警设备编码",
+                "alarmname":"告警名称",
+                "time":"发生时间",
+                "flag":"告警级别",
+                "notified":"是否上送",
+                "deviceid":"告警设备 ID",
+                "signalid":"告警监控量 ID",
+                "flagsent1":"已发送",
+                "flagsent0":"未发送"
+            },
+            "ipcamera":{
+                "name":"IPC拍照",
+                "current":"最近IPC相片"
+            }
+        }
+    },
+    "comm":{
+        "property":"属性",
+        "value":"参数",
+        "refresh":"刷新",
+        "apply":"设置",
+        "perform":"执行",
+        "savetofile":"保存至文件",
+        "control":"控制",
+        "clear":"清除",
+        "cancel":"取消",
+        "browse":"浏览",
+        "upload":"上传",
+        "remove":"删除",
+        "queue":"队列",
+        "length":"长度",
+        "selfiles":"选择文件",
+        "all": "全部",
+        "name":"名字",
+        "size":"大小",
+        "progress":"进度",
+        "status":"状态",
+        "actions":"动作",
+        "companyName":"赛尔通信服务技术有限公司",
+        "add":"添加",
+        "uploadfile":"上传文件",
+        "filename":"文件名",
+        "filesize":"文件大小",
+        "uploadprogress":"上传进度",
+        "result":"执行结果",
+        "uploadsuccess":"上传成功",
+        "uploadcanceled":"被取消",
+        "uploaderror":"上传出错",
+        "basecard":"主板",
+        "extcard":"扩展板",
+        "refreshtimes":"刷新次数",
+        "channels":{
+            "chNo":"通道号",
+            "chName":"通道名称",
+            "chStatus":"通道状态",
+            "chValOrg":"原始值",
+            "chVal":"通道值",
+            "chCtrl":"控制",
+            "chType":"通道类型",
+            "sensorName":"传感器名称",
+            "portName":"端口名称",
+            "slope":"变化斜率",
+            "intercept":"变化截距",
+            "upper":"变化上限",
+            "lower":"变化下限",
+            "normal":"正常值",
+            "name":"名称",
+            "data":"数据",
+            "value":"值"
+        },
+        "coms":{
+            "comnum":"串口号",
+            "address":"地址",
+            "info":"设备信息",
+            "devid":"设备编码",
+            "devaddr":"设备地址",
+            "soname":"动态库名称"
+        }
+    
+    },
+    "search": "搜索",
+    "submit": "提交",
+    "firstPage": "首页",
+    "lastPage": "末页",
+    "previousPage": "上一页",
+    "nextPage": "下一页",
+    "devicesCode":"设备编码共15为，由设备类型编码+设备子类型编码+预留位+系统顺序号+设备顺序号组成。如:010800001000001",
+    "sensorId":"监控点编码是共9位，与6位信号编码联合标识。第一位固定为0，如: 012345678",
+    "switchToLn":"切换成英文",
+
+    "zh":"中文",
+    "en":"英文"
+
+}

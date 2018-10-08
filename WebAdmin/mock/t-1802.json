@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_FSU_REBOOT_ACK",
+        "Code": 1802
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

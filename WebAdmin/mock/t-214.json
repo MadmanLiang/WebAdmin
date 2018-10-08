@@ -1,0 +1,35 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_NET_STATE_ACK",
+        "Code": 214
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "PPP": {
+                "Enable": true,
+                "Signal_Strength": 60,
+                "SIM_State": true,
+                "Carrier_Type": "中国移动",
+                "Network_Type": "3G",
+                "IMSI": "imsi ...",
+                "SIM_Net": true,
+                "PPP_IP": "192.168.2.11",
+                "Wireless_Modle": "",
+                "Wireless_Vendor": ""
+            },
+            "VPN": {
+                "Enable": true,
+				"VPN_Type": "l2tp",
+                "VPN_State": true,
+                "VPN_IP": "192.168.2.55"
+            },
+            "Tower": {
+                "Reg": true
+            }
+        }
+    }
+}

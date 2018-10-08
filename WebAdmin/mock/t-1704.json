@@ -1,0 +1,25 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_SERIAL_MONITRO_ACK",
+        "Code": 1704
+    },
+    "Info": {
+"Result": true,
+        "Error": "",
+"Data": [
+{
+        	"Index": 1,
+    	    "Flag": "Send",
+    	    	"Time": "2017-12-11-12:12:12",
+        		"Data": "23 23 23 23"
+},
+{
+        	"Index": 1,
+    	    "Flag": "Send",
+    	    	"Time": "2017-12-11-12:12:12",
+        		"Data": "23 23 23 23"
+}]
+    }
+}

@@ -1,0 +1,535 @@
+{
+    "app":{
+        "welcome":"Welcome",
+        "logout":"Logout",
+        "login":"Login",
+        "register":"Register",
+        "articles":"Articles",
+        "doc":"Document",
+        "console":"Console",
+        "title":"FSU monitored control system"
+    },
+    "post":{
+        "publish":"publish"
+    },    
+    "userRegister":{
+        "userSignUp":"User Sign Up",
+        "userName":"UserName:",
+        "userName-placeholder":"4-32 characters",
+        "nickName":"NickName:",
+        "nickName-placeholder":"2-32 characters",
+        "email":"Email:",
+        "email-placeholder":"Frequently used mailboxes, sign in after verification.",
+        "notice":"If you do not receive a verification email in your inbox, check your trash.",
+        "password":"Password:",
+        "password-placeholder":"Password, at least 8 characters.",
+        "repeat-pwd":"Repeat PWD:",
+        "repeat-pwd-placeholder":"Repeat password, two inputs must be consistent.",
+        "signUp":"SignUp"
+    },
+    "userLogin":{
+        "userLogin":"User Login",
+        "rememberMe":"Remember Me",
+        "userName":"UserName",
+        "password":"Password",
+        "userName-placeholder":"Pelase input user Name...",
+        "password-placeholder":"Pelase input password...",
+        "userName-notify":"User Name, MUST be input.",
+        "password-notify":"Password, at least 8 characters.",
+        "loginFail":"Login FAIL！Please check the info you input..."
+
+
+    },
+    "leftNav":{
+        "title": "Navigation",
+        "hello":"Hello, ",
+        "admin":"Admin"
+    },
+    "subpages":{
+        "sys":{
+            "name":"System Setting",
+            "version":{
+                "name":"Version"
+            },
+            "network":{
+                "name":"Network",
+                "type": "IP Type",
+                "type-s": "static IP",
+                "type-d": "Dynamic IP",
+                "ip": "IP Addr",
+                "mask": "IP MASK",
+                "gateway": "Defaut Gateway",
+                "mac": "MAC Addr"
+            },
+            "time":{
+                "name":"Time",
+                "fsu-time": "FSU Time",
+                "date": "Date",
+                "time": "Time",
+                "now":"Get Local Time",
+                "setnow": "Apply Local Time",
+                "setlocal": "Apply Local Time" 
+            },
+            "reset":{
+                "name":"Reset",
+                "reset":"Reset",
+                "password": "Password",
+                "options":[
+                    {"n": "none", "d": "----"},
+		            {"n": "restart", "d": "Reboot Now"},
+            		{"n": "reinit","d": "Factory Reset"}	
+                ]
+            },
+            "upgrade":{
+                "name":"Upgrade"
+            },
+            "params":{
+                "name":"Params",
+                "import": "Import",
+                "export": "Export",
+                "browse": "Browse",
+                "filesize": "File Size",
+                "progress":"Progress",
+                "result":"Result",
+                "success":"Success",
+                "canceled":"Cancelled",
+                "fail":"Fail",
+                "action-name":"Import",
+                "filname": "File Name",
+                "cfgbase": "Base Board",
+                "cfgext":"Ext Boards",
+                "cfgcom":"Com Ports",
+                "cfgmodel":"Common Models"
+            },
+            "password":{
+                "name":"Password",
+                "username":"User Name",
+                "pswdorg":"Old Password",
+                "pswdnew1":"New Password",
+                "pswdnew2":"Comfirm Password",
+                "tip-input-org":"Please input old password",
+                "tip-input-new1":"Please input new password",
+                "tip-input-new2":"Please input comfirm password",
+                "tip-input-1-2":"Please input comfirm password which is same as new password",
+                "err_pswdorg_null":"old password should not be null",
+                "err_pswd_not_same":"new password and comfirm password not match",
+                "err_pswdnew_null":"new password should not be null",
+                "ok_info":"set new password OK!",
+                "fail_info":"set new password FAIL!"
+
+            },
+            "nat":{
+                "name":"NAT Setting",
+                "gateway":"Gateway",
+                "turnon":"Turn On",
+                "turnoff":"Turn Off",
+                "serverip":"Server IP",
+                "serverport":"Server Port",
+                "mirroport":"Mirror Port",
+                "intport":"Internal Port",
+                "extport":"External Port",
+                "add":"Add",
+                "del":"Remove"
+
+            },
+            "ftp":{
+                "name":"FTP Setting",
+                "account":"Account",
+                "password":"Password"
+
+            },
+            "log":{
+                "name":"LOG Setting",
+                "enalbe":"Turn On/Off",
+                "printenable":"Terminal Show",
+                "receverip":"Receiver IP",
+                "level":"Log Level"
+
+            }
+
+        },
+        "srv":{
+            "name":"Service Setting",
+
+            "vpn":{
+                "name":"VPN Setting",
+                "turnon":"Turn On",
+                "tollon":"Toll Default",
+                "turnoff":"Turn Off",
+                "state":"VPN State",
+                "type":"VPN Type",
+                "ip1":"VPN IP1",
+                "ip2":"VPN IP2",
+                "ip3":"VPN IP3",
+                "username":"User Name",
+                "password":"Password"
+            },
+            "network":{
+                "name":"Server Setting",
+                "type":"Communication Mode",
+                "t-wire":"Wire",
+                "t-wireless":"Wireless",
+                "t-usbmodem":"USB MODEM",
+                "mode":"Network Standard",
+                "m-auto":"self-adaptation",
+                "reg-ip":"Reg Service IP",
+                "reg-port":"Reg Service Port",
+                "reg-name":"Reg Account Name",
+                "reg-password":"Reg Account Password",
+                "omc-ip":"OMC Service IP",
+                "omc-port":"OMC Service Port",
+                "omc-name":"OMC Account Name",
+                "omc-password":"OMC Account Password"
+            },
+            "wireless":{
+                "name":"Service Network Setting",
+                "type":"Communication Mode",
+                "t-wire":"Wire",
+                "t-wireless":"Wireless",
+                "m-auto":"self-adaptation",
+                "apn":"APN",
+                "username":"Account Name",
+                "password":"Account Password"
+            },
+            "status":{
+                "name":"Network Status",
+                "modemtype":"Modem Type",
+                "imsi":"IMSI",
+                "simstatus":"SIM Status",
+                "simnet":"SIM Net Status",
+                "dblevel":"DB Level",
+                "nwmode":"Network Mode",
+                "modemstatus":"Modem Status",
+                "l2tpstatus":"L2TP dial status",
+                "regstatus":"Registing Status",
+                "fsuid":"FSU ID",
+                "emi":"EMI",
+                "title":"Real-time Informations",
+                "info":{
+                    "SIM_State_true":"Online",
+                    "SIM_State_false":"Offline",
+
+                    "MODEM_State_true":"Modem is Enabled; ",
+                    "MODEM_State_false":"Modem NOT Enabled; ",
+                    "VPN_State_true":"VPN is Enabled; ",
+                    "VPN_State_false":"VPN NOT Enabled; ",
+                    "have_ip":"Connected",
+                    "not_have_ip":"Disconnected",
+ 
+
+                    "SIM_Net_true":"Connected",
+                    "SIM_Net_false":"Disconnected",
+                    "Enable_true":"Connected",
+                    "Enable_false":"Disconnected",
+                    "Tower_Reg_true":"Registered",
+                    "Tower_Reg_false":"Unregistered"
+                }
+            },
+            "devcom":{
+                "name":"COM Devices",
+                "comnum":"Com Port Number",
+                "comfunc":"Com Function",
+                "cfsmart":"Smart",
+                "cfhard":"Hard",
+                "cfsoft":"Soft",
+                "cfnone":"None",
+                "comparam":"Com Port Params",
+                "smartdev":"Smart Device",
+                "addsmartdev":"Add Smart Device",
+                "hardparam":"Hard Params",
+                "softparam":"Soft Params",
+                "com-params":{
+                    "ttType": "Type",
+                    "ttBps": "BPS",
+                    "ttDbit": "Data Bit",
+                    "ttSbit": "Stop Bit",
+                    "ttCbit": "Check Bit",
+                    "ttRType": "Rx Type",
+                    "ttTimeout": "Timeout",
+                    "ttFHByte": "Frame Head",
+                    "ttFTByte": "Frame Tail",
+                    "ttSwitchTime":"Swtich Time",
+                    "ttScanTime":"Scan Time"
+                },
+                "smart-params":{
+                    "ttNumber": "Number",
+                    "ttAddress": "Address",
+                    
+                    "ttType": "Type",
+                    "ttFactory": "Factory",
+                    "ttModel": "Model",
+                    "ttName": "Name",
+                    "ttVersion": "Version"
+                },
+                "tran-params":{
+                    "ttPort": "Port"
+                },
+                "soft-params":{
+                    "ttPort": "Port"
+                },
+                "waitingtitle":"Setting",
+                "waitinginfo":"Now doing it, Please wait ..."
+
+
+            },
+            "fsucode":{
+                "name":"Toll Info Setting",
+                "validitystr":"Please input 14 Code Numbers",
+                "station":{
+                    "title":"Station",
+                    "name":"Name",
+                    "id":"ID",
+                    "area":"Area"
+                },
+                "fsu":{
+                    "title":"FSU",
+                    "id":"FSU ID",
+                    "vendor": "FSU Vendor",
+                    "dic":"Dictionary",
+                    "dic0":"Normal",
+                    "dic1":"2G lite"
+                },
+                "gps":{
+                    "title":"GPS",
+                    "type":"Type",
+                    "type0":"From Com",
+                    "type1":"Manual",
+                    "type2":"From USB",                    
+                    "id":"GPS ID",
+                    "longitude":"FSU Longitude",
+                    "latitude":"FSU Latitude"
+                },
+                "ipc":{
+                    "title":"IPC",
+                    "id":"IPC ID"
+                },
+                "sensor":{
+                    "title":"Sensor",
+                    "board":"Board",
+                    "type":"Type",
+                    "index":"Index",
+                    "name":"Name",
+                    "devid":"Dev ID",
+                    "cellid":"Cell ID"
+                },
+                "smart":{
+                    "title":"Smart Dev",
+                    "comnum":"Index",
+                    "address":"Address",
+                    "info":"Info",
+                    "devid":"Dev ID"
+                },
+                "plugin":{
+                    "title":"Modules Dev",
+                    "moduleId":"Module ID",
+                    "devtype":"Dev Type",
+                    "info":"Info",
+                    "devid":"Dev Id"
+                }
+            },
+            "ipc":{
+                "name":"Public Model",
+                "add":"Add Model",
+                "delete":"Delete Model",
+                "deleting":"Now should to remove the ",
+                "selmodel":"Models",
+                "model":"Model"
+            },
+            "gsmconfig":{
+                "name":"CMCC Info Setting",
+                "validitystr":"Please input the correct Code Numbers",
+                "station":{
+                    "title":"Room station configure",
+                    "roomName":"Room Name",
+                    "stationName":"Station Name",
+                    "roomId":"Room ID",
+                    "stationId":"Station ID",
+                    "area":"Area"
+                },
+                "fsu":{
+                    "title":"FSU",
+                    "id":"FSU ID",
+                    "vendor": "FSU Vendor",
+                    "dic":"Dictionary",
+                    "dic0":"Normal",
+                    "dic1":"2G lite"
+                },
+                "gps":{
+                    "title":"GPS",
+                    "type":"Type",
+                    "type0":"From Com",
+                    "type1":"Manual",
+                    "type2":"From USB",                    
+                    "id":"GPS ID",
+                    "longitude":"FSU Longitude",
+                    "latitude":"FSU Latitude"
+                },
+                "ipc":{
+                    "title":"IPC",
+                    "id":"IPC ID"
+                },
+                "sensor":{
+                    "title":"Sensor",
+                    "board":"Board",
+                    "type":"Type",
+                    "index":"Index",
+                    "name":"Name",
+                    "devid":"Dev ID",
+                    "cellid":"Cell ID"
+                },
+                "smart":{
+                    "title":"Smart Dev",
+                    "comnum":"Index",
+                    "address":"Address",
+                    "info":"Info",
+                    "devid":"Dev ID"
+                },
+                "plugin":{
+                    "title":"Modules Dev",
+                    "moduleId":"Module ID",
+                    "devtype":"Dev Type",
+                    "info":"Info",
+                    "devid":"Dev Id"
+                }
+            },
+            "cmccPlugin":{
+                "name":"Extension module settings",
+                "add":"Add Extension module",
+                "delete":"Delete Extension module",
+                "deleting":"Is deleting",
+                "selmodel":"Select modules",
+                "model":"modules"
+            }
+        },
+        "chn":{
+            "name":"Channel Setting",
+            "all":{
+                "name":"All Setting",
+                "ctrl_type":"Ctrl Type",
+                "pulse_width":"Pulse Width",
+                "ctrl_type_displays":["Low Level", "Hight Level", "Pulse Control"]
+            }
+        },
+        "sta":{
+            "name":"Stauts Info",
+            "data":{
+                "name":"Base Info Query",
+                "chsnum": "Channels Num",
+                "Hard_Name":"Port Name",
+                "autoRefresh": "Auto Refresh",
+                "chNo":"Channel No",
+                "chName":"Channel Name",
+                "chStatus":"Channel Status",
+                "chValOrg":"Value Org",
+                "chVal":"Value",
+                "chCtrl":"Control"
+            },
+            "devsmart":{
+                "name":"Smart-Dev Query"
+            },
+            "ext":{
+                "name":"Ext Info Query"
+            },
+            "model":{
+                "name":"COMM Model Query"
+            },
+            "cmccmodel":{
+                "name":"Extension module data query"
+            },
+            "com":{
+                "name":"COM Data Query"
+            },
+            "alarm":{
+                "name":"Alarm Query",
+                "devid":"Device ID",
+                "alarmname":"Alarm Class",
+                "time":"Time",
+                "flag":"Alarm Level",
+                "notified":"Notified",
+                "deviceid":"Device ID",
+                "signalid":"Signal ID",
+                "flagsent1":"Sent",
+                "flagsent0":"Not Send"
+            },
+            "ipcamera":{
+                "name":"IPC Capture",
+                "current":"Recent IPC photos"
+            }
+        }
+    },
+    "comm":{
+        "property":"Property",
+        "value":"Value",
+        "refresh":"Refresh",
+        "apply":"Apply",
+        "perform":"Perform",
+        "savetofile":"Save To File",
+        "control":"Control",
+        "clear":"Clear",
+        "cancel":"Cancel",
+        "browse":"Browse",
+        "upload":"Upload",
+        "remove":"Remove",
+        "queue":"Queue",
+        "length":"Length",
+        "selfiles":"Select Files",
+        "all":"All",
+        "name":"Name",
+        "size":"Size",
+        "progress":"Progress",
+        "status":"Status",
+        "actions":"Actions",
+        "companyName":"",
+        "add":"Add",
+        "uploadfile":"Upload File",
+        "filename":"File Name",
+        "filesize":"File Size",
+        "uploadprogress":"Progress",
+        "result":"Result",
+        "uploadsuccess":"Upload Success",
+        "uploadcanceled":"Canceled",
+        "uploaderror":"Error",
+        "basecard":"Main",
+        "extcard":"External",
+        "refreshtimes":"Refresh Times",
+        "channels":{
+            "chNo":"Channel No",
+            "chName":"Channel Name",
+            "chStatus":"Channel Status",
+            "chValOrg":"Value Org",
+            "chVal":"Value",
+            "chCtrl":"Control",
+            "chType":"Channel Type",
+            "sensorName":"Sensor Name",
+            "portName":"Port Name",
+            "slope":"Slope",
+            "intercept":"Intercept",
+            "upper":"Upper",
+            "lower":"Lower",
+            "normal":"Normal",
+            "name":"Name",
+            "data":"Data",
+            "value":"Value"
+        },
+        "coms":{
+            "comnum":"Com Id",
+            "address":"Address",
+            "info":"Informations",
+            "devid":"Device ID",
+            "devaddr":"Device Address",
+            "soname":"So Name"
+        }
+    },
+    "search":"search",
+    "submit":"Submit",
+    "firstPage":"First",
+    "lastPage":"Last",
+    "previousPage":"Previous",
+    "nextPage":"Next",
+    "devicesCode":"A total of 15 device codes are composed of the device type code + device subtype code + reservation bit + system sequence number + device sequence number. Such as: 010800001000001",
+    "sensorId":"The monitoring point code is a total of 9 bits and is jointly identified with the 6-bit signal code. The first bit is fixed to 0, such as: 012345678",
+
+    "switchToLn":"Switch to Chinese",
+    "zh":"Chinese",
+    "en":"English"
+}

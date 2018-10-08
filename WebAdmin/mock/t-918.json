@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": " SET_UPDATE_ACK",
+        "Code": 918
+    },
+    "Info": {
+        "Result": "",
+        "Error": true
+    }
+}

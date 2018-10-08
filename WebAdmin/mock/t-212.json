@@ -1,0 +1,22 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_VPN_ACK",
+        "Code": 212
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "Enable": true,
+            "VPN_Type": "xl2tp",
+            "Username": "test",
+            "Password": "testtest",
+            "VPN_IP": [
+                "192.168.2.1",
+                "192.168.2.2"
+            ]
+        }
+    }
+}

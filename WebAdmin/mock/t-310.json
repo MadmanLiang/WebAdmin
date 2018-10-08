@@ -1,0 +1,21 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_MAIN_BOARD_AIDI_DATA_ACK",
+        "Code": 310
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "No": "1",
+            "Index": 1,
+            "Type": "AI",
+            "Value": 123,
+            "OrgVal": 123,
+            "Name": "温度",
+            "State": "正常"
+        }
+    }
+}

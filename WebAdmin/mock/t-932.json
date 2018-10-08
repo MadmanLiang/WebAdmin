@@ -1,0 +1,43 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_IPC_ACK",
+        "Code": 932
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "IpcImgList": [
+                {
+					"ImgUrl": "http://img.zcool.cn/community/01fc6856d05bf26ac7252ce6dfde33.jpg@900w_1l_2o_100sh.jpg"
+                },
+                {
+                    "ImgUrl": "http://i3.sinaimg.cn/qc/photo_auto/photo/71/33/16997133/16997133_640.jpg"
+                },
+                {
+                    "ImgUrl": "http://i3.hexunimg.cn/2012-05-22/141643883.jpg"
+                },
+                {
+					"ImgUrl": "http://image5.tuku.cn/pic/wallpaper/qiche/2014malashadiGhiblibizhi/039.jpg"
+                },
+                {
+                    "ImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1515255188988&di=ef84409a88a4177f770bb19ef5ef8e82&imgtype=0&src=http%3A%2F%2Fg.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F7e3e6709c93d70cffd6070e0f2dcd100bba12b41.jpg"
+                },
+                {
+                    "ImgUrl": "http://b.zol-img.com.cn/desk/bizhi/image/6/960x600/1431572493151.jpg"
+                },
+                {
+					"ImgUrl": "http://img.zcool.cn/community/0163ea58800dd6a8012060c8b49ed2.jpg"
+                },
+                {
+                    "ImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1515254088518&di=49fbf5d80b316da6729bbc318c32e8f2&imgtype=0&src=http%3A%2F%2Fpic31.nipic.com%2F20130729%2F11070243_125648234197_2.jpg"
+                },
+                {
+                    "ImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1515253678132&di=1d6a0fae1b172ca466b5ea349c2a9310&imgtype=0&src=http%3A%2F%2Fpic.baike.soso.com%2Fp%2F20140225%2F20140225111105-314887348.jpg"
+                }
+            ]
+        }
+    }
+}

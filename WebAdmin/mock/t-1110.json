@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_PLUGIN_DO_CTRL_ACK",
+        "Code": 1110
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

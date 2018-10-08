@@ -1,0 +1,12 @@
+{
+    "Info":{
+        "Data":{
+            "Plugin":[{"Index":1,"Name":"plugin_fsu","Ver":""}]
+        },
+        "Error":"",
+        "Result":true
+    },
+    "Message":{"Code":802,"Name":"GET_PLUGIN_CONFIG_ACK"},
+    "Method":"Response",
+    "Token":"eyJhbGciOiJTSEExIiwidHlwIjoiSldUIn0=.eyJpYXQiOiIxNTAzNTY3NTE4IiwibmFtZSI6ImFkbWluIn0=.f25eb90abbe12ef350f2721aa5d72bba90fb64a7"
+}

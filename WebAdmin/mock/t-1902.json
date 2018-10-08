@@ -1,0 +1,16 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "GET_PUBLIC_INFO_ACK",
+        "Code": 1902
+    },
+    "Info": {
+        "Result": true,
+        "Error": "",
+        "Data": {
+            "FSU_ID": "123456789",
+    	    "FSU_Name": "深圳测试站点"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "SET_EXT_BOARD_CONFIG_ACK",
+        "Code": 706
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

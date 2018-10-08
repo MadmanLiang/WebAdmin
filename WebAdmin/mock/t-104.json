@@ -1,0 +1,12 @@
+{
+    "Method": "Response",
+    "Token": "123456",
+    "Message": {
+        "Name": "LOGOUT_ACK",
+        "Code": 104
+    },
+    "Info": {
+        "Result": true,
+        "Error": ""
+    }
+}

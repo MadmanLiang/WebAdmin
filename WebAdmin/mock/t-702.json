@@ -1,0 +1,42 @@
+{
+    "Info":{
+        "Data":{
+            "AI_Count":1,
+            "AO_Count":1,
+
+            "Channel_AI":[
+                {
+                    "Index":1,"Name":"Measurement"
+                }],
+            "Channel_AO":[
+                {
+                    "Index":1,"Name":"Setupval"
+                }],
+            "Channel_DI":[
+                {
+                    "Index":1,"Name":"online"
+                }],
+            "Channel_DO":[
+                {
+                    "Index":1,"Name":"switch"
+                }],
+            "Channel_Str":[
+                {
+                    "Index":1,"Name":"ExternsionName"
+                }],
+            "DI_Count":1,
+            "DO_Count":1,
+            "Mod_Index":333,
+            "Mod_Type":2,
+            "So_Name":"cmcc_app",
+            "Str_Count":1},
+            "Error":"",
+            "Result":true},
+            "Message":
+                {
+                    "Code":702,
+                    "Name":"GET_SMART_CONFIG_ACK"
+                },
+            "Method":"Response",
+            "Token":"eyJhbGciOiJTSEExIiwidHlwIjoiSldUIn0=.eyJpYXQiOiI5MTYwNCIsIm5hbWUiOiJhZG1pbiJ9.8c2812d1889e49e68d4b118e55da9f20f202fd2e"
+}
