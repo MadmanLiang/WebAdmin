@@ -60,7 +60,7 @@
 
 	ng serve --prod
   
- ## 该实例为打包后的项目，如有需把该项目拷贝部署到实际的 web 服务器相应的工作目录即可。
+该实例为打包后的项目，如有需把该项目拷贝部署到实际的 web 服务器相应的工作目录即可。
 
 
 ![image](https://github.com/MadmanLiang/WebAdmin/blob/master/demo.gif?raw=true)
